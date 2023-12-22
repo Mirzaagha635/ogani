@@ -1,0 +1,182 @@
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header .content {
+  margin-bottom: -13px;
+}
+header .content .cotentbox {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header .navbar .container-fluid .collapse .navbar-nav {
+  margin: auto;
+}
+header .navbar .container-fluid .collapse .navbar-nav .nav-item {
+  font-weight: 500;
+}
+
+#home {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-top: 40px;
+}
+#home .homediv {
+  position: relative;
+}
+#home .homediv .hometext {
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+}
+#home .homediv .hometext button {
+  background-color: #7FAD39;
+  border: none;
+  color: white;
+  padding: 15px;
+}
+#home .homediv .hometext button strong {
+  color: white;
+}
+#home .homediv .hometext p {
+  color: grey;
+}
+#home .homediv .hometext h2 {
+  font-weight: 900;
+}
+#home .homediv .hometext strong {
+  color: #7FAD39;
+}
+#home .homediv img {
+  max-width: 100%;
+}
+#home .herosearch {
+  display: flex;
+  justify-content: space-evenly;
+}
+#home .herosearch .searchbtn {
+  width: 25%;
+  height: 50px;
+  background-color: #7FAD39;
+  border: none;
+}
+#home .herosearch input {
+  width: 30%;
+  height: 50px;
+}
+#home .homebox {
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+
+#fruit {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fruit .fruitimg {
+  max-width: 100%;
+}
+#fruit .fruitcontent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#fruit .fruitcontent p {
+  font-weight: 700;
+}
+
+#apiproduct {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#apiproduct img {
+  max-width: 100%;
+}
+
+#freshfood {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#freshfood .freshimg {
+  max-width: 100%;
+}
+
+#featured {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#featured .featuredtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#featured .featuredtext .featuredline {
+  width: 70px;
+  height: 5px;
+  background-color: #7FAD39;
+}
+#featured .featuredtext ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+#featured .featurebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#basketform {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#basketform .basketcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .allcategories {
+    display: none;
+  }
+  .herosearchtwo {
+    display: none;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .content {
+    display: none;
+  }
+}

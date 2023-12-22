@@ -1,0 +1,214 @@
+header {
+    width: 100%;
+    height: auto;
+  
+    display: flex;
+    justify-content: space-around;
+
+    nav{
+        width: 80%;
+
+        margin: auto;
+
+    }
+    .content {
+    
+      margin-bottom: -13px;
+        .cotentbox {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+    }
+    .navbar {
+        .container-fluid {
+            .collapse {
+                .navbar-nav {
+                    margin: auto;
+                    .nav-item {
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+#home {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-top: 40px;
+ 
+
+      .homediv{
+        position: relative;
+        .hometext{
+            position: absolute;
+            top: 30%;
+            bottom: 50%;
+            button{
+                strong{
+                    color: white;
+                }
+                background-color: #7FAD39;
+                border: none;
+                color: white;
+                padding: 15px;
+
+            }
+            p{
+                color: grey;
+            }
+            h2{
+                font-weight: 900;
+            }
+            strong{
+                color: #7FAD39;
+            }
+            
+        }
+        img{
+            max-width: 100%;
+        }
+      }
+    .herosearch{
+          display: flex;
+          justify-content: space-evenly;
+          .searchbtn{
+            width: 25%;
+            height: 50px;
+          
+            background-color: #7FAD39;
+            border: none;
+            
+          }
+       input{
+        width: 30%;
+        height: 50px;
+     
+       }
+        
+     
+    }
+
+    .homebox {
+        width: 100%;
+        min-height: 200px;
+        margin-bottom: 30px;
+    }
+}
+
+#fruit {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fruitimg {
+        max-width: 100%;
+    }
+
+    .fruitcontent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            font-weight: 700;
+        }
+    }
+}
+
+#apiproduct {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+#freshfood {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    .freshimg {
+        max-width: 100%;
+    }
+}
+
+#featured {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .featuredtext {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+        .featuredline {
+            width: 70px;
+            height: 5px;
+            background-color: #7FAD39;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+
+        }
+    }
+
+    .featurebox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+#basketform{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .basketcontent{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .allcategories{
+      display: none;
+    }
+    .herosearchtwo{
+        display: none;
+    }
+  }
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .content{
+    display: none;
+  }
+  }
